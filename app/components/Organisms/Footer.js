@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <ul className="flex flex-col gap-3">
               <li className="text-[#3D9D2B] uppercase">
-                Adoptez l'énergie verte
+                Adoptez l&apos;énergie verte
               </li>
               <li className="text-sm hover:text-[#F39904]">
                 <Link href="/">Boutique : Lampe Solar</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Link href="/">ecoresponsables@lampe-solar.com</Link>
               </li>
               <li className="text-sm hover:text-[#F39904]">
-                <Link href="/">Centre D'aide / FAQ</Link>
+                <Link href="/">Centre D&apos;aide / FAQ</Link>
               </li>
               <li className="text-sm hover:text-[#F39904]">
                 <Link href="/">Suivi de commande</Link>
