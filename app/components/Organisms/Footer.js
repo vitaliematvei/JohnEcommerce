@@ -8,7 +8,7 @@ import FooterPaymensIcons from "../Molecules/FooterPaymentIcons";
 const Footer = () => {
   return (
     <div>
-      <div className="block  bg-[#213236] text-white py-8 fixed bottom-0 left-0 w-full mx-auto ">
+      <div className="block  bg-[#213236] text-white py-8 fixed bottom-0 left-0 w-full mx-auto -z-50 ">
         <div className="flex justify-evenly items-center">
           <div className="hidden md:block">
             <Link href="/">

@@ -18,7 +18,7 @@ const SecondaryMenu = () => {
   };
 
   return (
-    <nav className="hidden md:flex justify-between items-center bg-[#37464A] px-4 py-2 mx-auto z-50">
+    <nav className="hidden md:flex justify-between items-center bg-[#37464A] px-4 py-2 mx-auto">
       <div><Link href="/" >
         <Image
           src={Logo}
