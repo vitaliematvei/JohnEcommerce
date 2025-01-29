@@ -8,15 +8,15 @@ import FooterPaymensIcons from "../Molecules/FooterPaymentIcons";
 const Footer = () => {
   return (
     <div>
-      <div className="hidden xl:block bg-[#213236] text-white py-8 fixed bottom-0 left-0 w-full mx-auto ">
+      <div className="block  bg-[#213236] text-white py-8 fixed bottom-0 left-0 w-full mx-auto ">
         <div className="flex justify-evenly items-center">
-          <div>
+          <div className="hidden md:block">
             <Link href="/">
               <Image src={Logo} alt="Logo" width={350} height={150} />
             </Link>
           </div>
 
-          <div>
+          <div className="hidden md:block">
             <ul className="flex flex-col gap-3">
               <li className="text-[#3D9D2B] uppercase">
                 Adoptez l&apos;énergie verte
@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="hidden md:block">
             <ul className="flex flex-col gap-3">
               <li className="text-[#3D9D2B] uppercase">#LAMPESOLAR</li>
               <li className="text-sm hover:text-[#F39904]">

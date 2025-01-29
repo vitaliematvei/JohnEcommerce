@@ -62,13 +62,13 @@ const MobileMenu = ({ menuItems }) => {
 
   return (
     <div>
-      <div className="xl:hidden" onClick={toogleMenu}>
+      <div className="md:hidden" onClick={toogleMenu}>
         <IoIosMenu size={26} className="text-white" />
       </div>
 
       {isMenuOpen && (
         <div
-          className={`xl:hidden z-50 overflow-y-auto fixed bg-white w-1/2 h-full left-0 top-0 transition-all duration-300 ease-in-out
+          className={`md:hidden z-50 overflow-y-auto fixed bg-white w-1/2 h-full left-0 top-0 transition-all duration-300 ease-in-out
         ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}
         >
           <div className="flex p-3 border-b-2"><IoMdClose size={26} onClick={toogleMenu} className="text-black" />

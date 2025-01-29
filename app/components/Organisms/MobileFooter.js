@@ -37,7 +37,7 @@ const MobileFooter = () => {
           </Link>
           Conçu par mVi Web
         </p>
-        <FooterPaymensIcons />
+        {/* <FooterPaymensIcons /> */}
       </div>
     </div>
   );

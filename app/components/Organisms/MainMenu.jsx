@@ -15,7 +15,7 @@ import { menuItems } from "@/app/utils/menuItems";
 const MainMenu = () => {
   return (
     <nav className="max-w-screen-2xl bg-[#213236] px-4 py-2 mx-auto flex justify-between items-center">
-      <div className="hidden xl:flex">
+      <div className="hidden md:flex">
         <Social />
       </div>
 
@@ -26,11 +26,11 @@ const MainMenu = () => {
           alt="Logo"
           width={50}
           height={30}
-          className="xl:hidden"
+          className="md:hidden"
         />
       </Link>
 
-      <ul className="hidden xl:flex gap-4 text-white uppercase text-xs mx-auto">
+      <ul className="hidden md:flex text-wrap gap-4 px-4 text-xs text-white uppercase  mx-auto">
         {menuItems.map((item) => (
           <li key={item.label}>
             <Link href={item.href} className="hover:text-[#F39904]">

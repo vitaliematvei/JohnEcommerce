@@ -1,10 +1,6 @@
 export const menuItems = [
   {
     href: "/",
-    label: "John Item",
-  },
-  {
-    href: "/",
     label: "Live Chat",
   },
   {
