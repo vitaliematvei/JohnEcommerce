@@ -36,7 +36,7 @@ const SecondaryMenu = () => {
             onPointerLeave={() => handleItemClick(index)}
 
           >
-            <div className="h-5 flex gap-1 uppercase hover:text-[#F39904] hover:border-b border-[#F39904]">{item.label}
+            <div className="h-5 flex gap-1 uppercase hover:text-[#F39904]">{item.label}
               <BsChevronDown />
             </div>
 
