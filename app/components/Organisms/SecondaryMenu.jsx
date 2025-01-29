@@ -18,7 +18,7 @@ const SecondaryMenu = () => {
   };
 
   return (
-    <nav className="hidden md:flex justify-between items-center bg-[#37464A] px-4 py-2 mx-auto">
+    <nav className="hidden md:flex justify-between items-center bg-[#37464A] px-4 py-2 mx-auto z-50">
       <div><Link href="/" >
         <Image
           src={Logo}
@@ -29,7 +29,7 @@ const SecondaryMenu = () => {
       </div>
 
       <ul
-        className="flex gap-3 text-white text-xs">
+        className="flex  gap-3 text-white text-xs">
         {secondaryMenuItems.map((item, index) => (
           <li key={index} className="px-2"
             onPointerEnter={() => handleItemClick(index)}
@@ -40,11 +40,11 @@ const SecondaryMenu = () => {
               <BsChevronDown />
             </div>
 
-            <div className="fixed left-0 w-full opacity-95">
+            <div className="fixed left-0 w-full opacity-95 ">
               {item.subMenuItems && (
                 <ul
 
-                  className={`mt-14 flex justify-around bg-[#37464A] shadow-md z-10 ${activeIndex === index ? "block" : "hidden"
+                  className={`mt-14 flex justify-around bg-[#37464A] shadow-md ${activeIndex === index ? "block" : "hidden"
                     }`}
                 >
                   {item.subMenuItems.map((subItem, subIndex) => (
