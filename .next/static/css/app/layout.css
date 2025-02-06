@@ -516,14 +516,14 @@ video {
 .top-9 {
   top: 2.25rem;
 }
+.-z-50 {
+  z-index: -50;
+}
 .z-10 {
   z-index: 10;
 }
 .z-50 {
   z-index: 50;
-}
-.-z-50 {
-  z-index: -50;
 }
 .mx-auto {
   margin-left: auto;
@@ -689,10 +689,6 @@ video {
 .border-b-2 {
   border-bottom-width: 2px;
 }
-.border-\[\#F39904\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(243 153 4 / var(--tw-border-opacity, 1));
-}
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
@@ -819,33 +815,6 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-\[5px\] {
-  font-size: 5px;
-}
-.text-\[5em\] {
-  font-size: 5em;
-}
-.text-\[\.5em\] {
-  font-size: .5em;
-}
-.text-\[\.1em\] {
-  font-size: .1em;
-}
-.text-\[\.2em\] {
-  font-size: .2em;
-}
-.text-\[\.3em\] {
-  font-size: .3em;
-}
-.text-\[\.4em\] {
-  font-size: .4em;
-}
-.text-\[\.45em\] {
-  font-size: .45em;
-}
-.text-\[\.42em\] {
-  font-size: .42em;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -854,6 +823,9 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
@@ -873,9 +845,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-\[10\] {
-  color: 10;
 }
 .opacity-0 {
   opacity: 0;
@@ -926,10 +895,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hover\:border-b:hover {
-  border-bottom-width: 1px;
-}
-
 .hover\:border-\[\#F39904\]:hover {
   --tw-border-opacity: 1;
   border-color: rgb(243 153 4 / var(--tw-border-opacity, 1));
@@ -949,13 +914,6 @@ body {
   outline-offset: 2px;
 }
 
-@media (min-width: 640px) {
-
-  .sm\:flex {
-    display: flex;
-  }
-}
-
 @media (min-width: 768px) {
 
   .md\:block {
@@ -969,38 +927,9 @@ body {
   .md\:hidden {
     display: none;
   }
-
-  .md\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-
-  .lg\:flex {
-    display: flex;
-  }
-
-  .lg\:gap-4 {
-    gap: 1rem;
-  }
-
-  .lg\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
 }
 
 @media (min-width: 1280px) {
-
-  .xl\:block {
-    display: block;
-  }
-
-  .xl\:flex {
-    display: flex;
-  }
 
   .xl\:hidden {
     display: none;
